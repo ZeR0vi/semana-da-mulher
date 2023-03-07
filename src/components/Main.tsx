@@ -3,7 +3,9 @@ import '../styles/main.scss'
 import LogoTemporario from '../assets/logotemp.png'
 import menu from '../assets/menuburger.png'
 
-export function Main(){
+
+
+export  function Main(){
 
 
 
@@ -29,11 +31,12 @@ export function Main(){
                         <div className='generic'>
                               <div className="texts">
                                     <h2>CONHEÇA O PROJETO DA <br/> <span>SEMANA DA MULHER</span></h2>
-                                    <p>O Dia Internacional das Mulheres é celebrado, anualmente, no dia 8 de março.
+                                    <p>Os alunos da turma 203 da Escola Estadual Manoel Soares Couto
+                                       para celebrar o dia das mulheres preparam esse projeto para falar
+                                       sobre a escritora brasileira Clarice Lispector.
+                                    </p>
 
-A ideia de uma comemoração anual surgiu depois que o Partido Socialista da América organizou o Dia das Mulheres, em 20 de fevereiro de 1909, em Nova York — uma jornada de manifestação pela igualdade de direitos civis e em favor do voto feminino.</p>
-
-                                    <a href='#'>CONHECER O PROJETO</a>
+                                    <a href='/projeto'>CONHECER O PROJETO</a>
                               </div>
                         </div>
 
@@ -41,3 +44,14 @@ A ideia de uma comemoração anual surgiu depois que o Partido Socialista da Am�
             </div>
       )
 }
+
+
+/*
+      
+Dia da Mulher:
+
+      O Dia Internacional das Mulheres é celebrado, anualmente, no dia 8 de março.
+      A ideia de uma comemoração anual surgiu depois que o Partido Socialista da América organizou o 
+      Dia das Mulheres, em 20 de fevereiro de 1909, em Nova York — uma jornada de manifestação pela igualdade 
+      de direitos civis e em favor do voto feminino.
+*/
