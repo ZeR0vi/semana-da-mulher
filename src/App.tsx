@@ -11,7 +11,7 @@ export function App() {
       <BrowserRouter>
         <Routes>
           <Route  path="/" element={  <Main/> }/>
-          <Route path="/projeto" element={ <Project/> } />
+          <Route path="projeto" element={ <Project/> } />
         </Routes>
       </BrowserRouter>
   )
