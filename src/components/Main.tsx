@@ -36,7 +36,7 @@ export  function Main(){
                                        sobre a escritora brasileira Clarice Lispector.
                                     </p>
 
-                                    <a href='projeto'>CONHECER O PROJETO</a>
+                                    <a href='../pages/Project.tsx'>CONHECER O PROJETO</a>
                               </div>
                         </div>
 
