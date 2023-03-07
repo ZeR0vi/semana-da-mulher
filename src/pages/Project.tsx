@@ -137,7 +137,7 @@ export  function Project(){
           </Typography>
           <Typography variant="body2" sx={{ color: '#fff' }} color="text.secondary">
           Obra inaugurada no bairro do Leme. Escritora foi moradora da região por 12 anos.
-Momumento em homenagem a Clarice Lispector.    </Typography>
+Monumento em homenagem a Clarice Lispector.    </Typography>
         </CardContent>
       </CardActionArea>
     </Card>
@@ -272,6 +272,10 @@ Momumento em homenagem a Clarice Lispector.    </Typography>
 
                      
                   </main>
+
+                  
+
+           
             </div>
       )
 }
