@@ -5,6 +5,7 @@ import Clarice from '../assets/clarice.jpg'
 import One from '../assets/one.jpg'
 import Two from '../assets/two.jpg'
 import Three from '../assets/three.jpg'
+import Four from '../assets/monumento.jpg'
 
 import book1 from '../assets/book1.jpg'
 import book2 from '../assets/book2.jpg'
@@ -52,6 +53,8 @@ export  function Project(){
 
                               <div className="cards">
 
+                                <div className="separar2">
+
                               <div className='one'>
 
 <Card sx={{ maxWidth: 345, backgroundColor: '#161616',   }}>
@@ -95,6 +98,10 @@ export  function Project(){
     </Card>
                               </div>
 
+                              </div>
+
+                              <div className="separar">
+
                               <div className='three'>
                               <Card sx={{ maxWidth: 345, backgroundColor: '#161616',  }}>
       <CardActionArea>
@@ -115,6 +122,28 @@ export  function Project(){
     </Card>
                               </div>
 
+                              <div className="four">
+                              <Card sx={{ maxWidth: 345, backgroundColor: '#161616' }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="140"
+          image={Four}
+
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" sx={{ color: '#FF1493' }} component="div">
+            MONUMENTO
+          </Typography>
+          <Typography variant="body2" sx={{ color: '#fff' }} color="text.secondary">
+          Obra inaugurada no bairro do Leme. Escritora foi moradora da região por 12 anos.
+Momumento em homenagem a Clarice Lispector.    </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+                              </div>
+
+                              </div>
                               </div>
 
 
