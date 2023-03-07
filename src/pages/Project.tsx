@@ -27,9 +27,6 @@ import { CardActionArea } from '@mui/material';
 export  function Project(){
       return(
             <div className="container">
-                  <div className="header">
-                        <a href='/'> <img className='logo' src={LogoTemporario}/> </a>
-                  </div>
 
                   <main>
             

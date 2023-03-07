@@ -2,6 +2,7 @@ import '../styles/main.scss'
 
 import LogoTemporario from '../assets/logotemp.png'
 import menu from '../assets/menuburger.png'
+import { Project } from '../pages/Project'
 
 
 
@@ -36,10 +37,14 @@ export  function Main(){
                                        sobre a escritora brasileira Clarice Lispector.
                                     </p>
 
-                                    <a href='../pages/Project.tsx'>CONHECER O PROJETO</a>
+                                    <a href='#project'>CONHECER O PROJETO</a>
                               </div>
                         </div>
 
+                  </section>
+
+                  <section id="project">
+                        <Project/>
                   </section>
             </div>
       )
