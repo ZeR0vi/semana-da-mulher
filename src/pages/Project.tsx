@@ -6,6 +6,7 @@ import One from '../assets/one.jpg'
 import Two from '../assets/two.jpg'
 import Three from '../assets/three.jpg'
 import Four from '../assets/monumento.jpg'
+import Five from '../assets/music.jpg'
 
 import book1 from '../assets/book1.jpg'
 import book2 from '../assets/book2.jpg'
@@ -138,6 +139,26 @@ export  function Project(){
           <Typography variant="body2" sx={{ color: '#fff' }} color="text.secondary">
           Obra inaugurada no bairro do Leme. Escritora foi moradora da região por 12 anos.
 Monumento em homenagem a Clarice Lispector.    </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
+                              </div>
+
+                              <div className="five">
+                              <Card sx={{ maxWidth: 345, backgroundColor: '#161616' }}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          height="180"
+          image={Five}
+
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" sx={{ color: '#FF1493' }} component="div">
+            HOMENAGEM
+          </Typography>
+          <Typography variant="body2" sx={{ color: '#fff' }} color="text.secondary">
+          Em 2020, ano em que Clarice Lispector completaria um século de vida, a cantora Beatriz Azevedo foi convidada pela Universidade de Princeton, em Nova Jérsei, nos Estados Unidos, para produzir um conteúdo em celebração ao centenário da escritora ucraniana. O convite se deu devido ao musical Now Clarice, produzido por Beatriz, no qual ela interpreta, ao lado de Moreno Veloso, canções originais e trechos dos livros de Clarice. Os rumos do país instigaram a dupla a vislumbrar uma transformação sociopolítica por meio da arte. Os versos criam um jogo de palavras e transformam nomes de grandes artistas em verbos, como no trecho: “Eu quero, espero / transformar este momento / na arte revelo / eu sou Hélio e me Tarsilo / Monaliso e Botticello”. </Typography>
         </CardContent>
       </CardActionArea>
     </Card>
