@@ -21,9 +21,9 @@ export  function Main(){
                               <nav className='navigation'>
                                     <ul>
                                           <img className='burger' src={menu}/>
-                                          <li><a href="#">Inicio</a></li>
-                                          <li><a href="#">Projeto</a></li>
-                                          <li><a href="#">Sobre</a></li>
+                                          <li><a href="#"></a></li>
+                                          <li><a href="#"></a></li>
+                                          <li><a href="#"></a></li>
                                     </ul>
                               </nav>
                         </header>
